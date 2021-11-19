@@ -27,9 +27,9 @@ public class Auth {
 
     public void signIn(String loginNew, String passwordNew) throws WrongLoginException {
         if (loginNew.equals(login) & passwordNew.equals(password)) {
-            System.out.println("Authorization was successful!");
+            System.out.println("Авторизация прошла успешно!");
         } else {
-            throw new WrongLoginException("You entered an incorrect login. Try again");
+            throw new WrongLoginException("Вы ввели неверный логин. Попробуйте снова");
         }
     }
 }
