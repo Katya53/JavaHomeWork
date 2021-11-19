@@ -1,5 +1,6 @@
 package com.pb.fedosova.hw8;
 
+
 public class Auth {
     static String login;
     private static String password;
